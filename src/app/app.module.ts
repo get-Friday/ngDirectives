@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HamburguerComponent } from './hamburguer/hamburguer.component';
 import { DarkModeComponent } from './dark-mode/dark-mode.component';
+import { FavMoviesComponent } from './fav-movies/fav-movies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HamburguerComponent,
-    DarkModeComponent
+    DarkModeComponent,
+    FavMoviesComponent
   ],
   imports: [
     BrowserModule

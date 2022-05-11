@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <!-- <app-hamburguer></app-hamburguer> -->
-    <app-dark-mode></app-dark-mode>
+    <!-- <app-dark-mode></app-dark-mode> -->
+    <app-fav-movies></app-fav-movies>
   `,
   styles: []
 })
