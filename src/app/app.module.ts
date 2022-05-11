@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HamburguerComponent } from './hamburguer/hamburguer.component';
+import { DarkModeComponent } from './dark-mode/dark-mode.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HamburguerComponent
+    HamburguerComponent,
+    DarkModeComponent
   ],
   imports: [
     BrowserModule
