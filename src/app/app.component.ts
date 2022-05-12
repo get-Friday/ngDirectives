@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
     <!-- <app-hamburguer></app-hamburguer> -->
     <!-- <app-dark-mode></app-dark-mode> -->
     <!-- <app-fav-movies></app-fav-movies> -->
-    <app-photos></app-photos>
+    <!-- <app-photos></app-photos> -->
+    <app-demo-modal></app-demo-modal>
   `,
   styles: []
 })

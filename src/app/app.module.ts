@@ -6,6 +6,7 @@ import { HamburguerComponent } from './hamburguer/hamburguer.component';
 import { DarkModeComponent } from './dark-mode/dark-mode.component';
 import { FavMoviesComponent } from './fav-movies/fav-movies.component';
 import { PhotosComponent } from './photos/photos.component';
+import { DemoModalComponent } from './demo-modal/demo-modal.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PhotosComponent } from './photos/photos.component';
     HamburguerComponent,
     DarkModeComponent,
     FavMoviesComponent,
-    PhotosComponent
+    PhotosComponent,
+    DemoModalComponent
   ],
   imports: [
     BrowserModule
