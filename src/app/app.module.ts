@@ -7,6 +7,8 @@ import { DarkModeComponent } from './dark-mode/dark-mode.component';
 import { FavMoviesComponent } from './fav-movies/fav-movies.component';
 import { PhotosComponent } from './photos/photos.component';
 import { DemoModalComponent } from './demo-modal/demo-modal.component';
+import { FormComponent } from './form/form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { DemoModalComponent } from './demo-modal/demo-modal.component';
     DarkModeComponent,
     FavMoviesComponent,
     PhotosComponent,
-    DemoModalComponent
+    DemoModalComponent,
+    FormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
