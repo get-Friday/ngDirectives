@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
     <!-- <app-fav-movies></app-fav-movies> -->
     <!-- <app-photos></app-photos> -->
     <!-- <app-demo-modal></app-demo-modal> -->
-    <app-form></app-form>
+    <!-- <app-form></app-form> -->
+    <app-navbar></app-navbar>
   `,
   styles: []
 })

@@ -9,6 +9,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { DemoModalComponent } from './demo-modal/demo-modal.component';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     FavMoviesComponent,
     PhotosComponent,
     DemoModalComponent,
-    FormComponent
+    FormComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
